@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(17, 17, 117);
+  color: white;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 4rem;
+}
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}
+
+header.h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+}
+img {
+  margin-right: 1rem;
+}
+.content {
+  margin-top: 2rem;
+}
+.tab {
+  background-color: rgb(2, 2, 161);
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.active {
+  background-color: rgb(220, 220, 62);
+  color: black;
+}
+.tab-content {
+  min-height: 10rem;
+  background-color: rgb(2, 2, 161);
+  padding: 1.5 rem;
+  width: 35rem;
+}

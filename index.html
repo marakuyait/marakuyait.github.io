@@ -3,11 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Java Script</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="container">
+      <div class="header">
+        <img
+          width="60px"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png?20141107110902"
+        />
+        <div>
+          <h1>Java Script</h1>
+          <p>Javascript is a popular programming language</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="tabs">
+          <button id="btn-features" class="tab active">Features</button>
+          <button id="btn-capabilities" class="tab">Capabilities</button>
+          <button id="btn-practices" class="tab">Practices</button>
+        </div>
+        <div id="tab-content" class="tab-content">Content</div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
